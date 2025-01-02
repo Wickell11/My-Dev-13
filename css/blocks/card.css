@@ -1,0 +1,49 @@
+.cakes {
+  padding: 50px 0;
+}
+.cakes__item {
+  border: 1px solid #f2f6fa;
+  border-radius: 10px;
+  grid-column: 4 span;
+}
+.card__text {
+  padding: 50px 44px;
+  display: flex;
+  min-height: 340px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #f2f6fa;
+}
+.card__title {
+  margin: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 143%;
+  color: #2e363e;
+}
+.card__descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e363e;
+}
+.card__price {
+  margin: 0;
+  margin-bottom: 14px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #434b53;
+}
+.card__button {
+  border-radius: 8px;
+  background-color: #fed84c;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 152%;
+  text-align: center;
+  color: #2e363e;
+}
